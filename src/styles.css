@@ -1,0 +1,22 @@
+/* Add application styles & imports to this file! *//* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body { 
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}
+
+
+h2{
+     color: white;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: justify;
+     
+
+}
+
+h3{
+font-family: 'Times New Roman', Times, serif;
+
+}
