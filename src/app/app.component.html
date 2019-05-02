@@ -1,7 +1,21 @@
 <app-header></app-header><br/>
 
-        
-<br/>
-<div align="center" >
-    <address-search></address-search>
+<div align="center">
+<nav class="toogle">
+  <a (click)="toggleEditor('address')">Address Search</a>
+  
+  <a (click)="toggleEditor('map')">HeatMap</a>
+</nav>
 </div>
+<br/>
+
+<div align="center">
+<address-search *ngIf="showAddressSearch"></address-search>
+
+<!--<app-heatmap *ngIf="showHeatMap"></app-heatmap>-->
+
+</div>
+
+
+  
+
