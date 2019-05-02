@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from "@angular/forms";
 import {HttpClientModule} from '@angular/common/http';
-import {MatButtonModule, MatTableModule,MatToolbar} from '@angular/material';
+import {MatButtonModule, MatTableModule,MatToolbarModule} from '@angular/material';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { ReactiveFormsModule} from "@angular/forms";
 
@@ -26,7 +26,7 @@ import { HeaderComponent } from './components/header/header.component';
     MatButtonModule,
     MDBBootstrapModule,
     MatTableModule,
-    MatToolbar,
+    MatToolbarModule,
     ReactiveFormsModule
   ],
   providers: [AddressSearchService],
